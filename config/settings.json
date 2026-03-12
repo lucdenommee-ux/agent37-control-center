@@ -1,5 +1,5 @@
 {
-  "incoming_dir": "incoming",
+  "incoming_dir": "C:/agent37_mobile",
   "missions_dir": "missions",
   "default_market": "seg_plaza",
   "poll_interval_seconds": 2,
