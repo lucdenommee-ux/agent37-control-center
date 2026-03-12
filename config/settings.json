@@ -1,0 +1,13 @@
+{
+  "incoming_dir": "incoming",
+  "missions_dir": "missions",
+  "default_market": "seg_plaza",
+  "poll_interval_seconds": 2,
+  "pipeline_steps": [
+    "../lab6-ai-processing/apps/run_ocr_batch.py",
+    "../lab6-ai-processing/apps/run_visual_batch.py",
+    "../lab6-ai-processing/apps/build_entities_from_frames.py",
+    "../lab6-knowledge-graph/apps/generate_public_ids.py",
+    "../lab6-knowledge-graph/apps/build_graph_export.py"
+  ]
+}
