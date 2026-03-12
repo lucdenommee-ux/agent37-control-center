@@ -1,5 +1,8 @@
 {
-  "last_run": null,
-  "last_pipeline_status": null,
-  "last_detected_files": []
+  "system_status": "ACTIVE",
+  "last_bootstrap": null,
+  "active_jobs": [],
+  "failed_jobs": [],
+  "last_registry_sync": null
 }
+

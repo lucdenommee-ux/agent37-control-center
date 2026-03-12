@@ -1,0 +1,11 @@
+import subprocess
+
+class PipelineLauncher:
+
+    def run_pipeline(self, script):
+
+        print(f"Running pipeline {script}")
+
+        subprocess.run(["python", script])
+
+
